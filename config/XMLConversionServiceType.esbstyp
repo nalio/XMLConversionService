@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serviceType name="XMLConversionServiceType" factoryClass="com.progress.codeshare.esbservice.xmlConversion.XMLConversionService"
+        xmlns="http://www.sonicsw.com/sonicxq">
+    <validParams>
+        <runtime>
+            <stringParam name="direction"/>
+            <stringParam name="keepOriginalPart"/>
+            <stringParam name="messagePart"/>
+            <stringParam name="outputMode"/>
+            <stringParam name="uri"/>
+            <stringParam name="xpathExpression"/>
+        </runtime>
+    </validParams>
+</serviceType>
